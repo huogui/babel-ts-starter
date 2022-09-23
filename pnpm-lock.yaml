@@ -1,20 +1,28 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   '@babel/cli': ^7.8.3
   '@babel/core': ^7.8.3
+  '@babel/generator': ^7.19.0
+  '@babel/parser': ^7.19.1
   '@babel/plugin-proposal-class-properties': ^7.8.3
   '@babel/preset-env': ^7.8.3
   '@babel/preset-typescript': ^7.8.3
+  '@babel/traverse': ^7.19.1
+  '@types/node': ^18.7.18
   acorn: ^8.8.0
   typescript: ^3.7.5
 
 devDependencies:
   '@babel/cli': 7.18.10_@babel+core@7.19.1
   '@babel/core': 7.19.1
+  '@babel/generator': 7.19.0
+  '@babel/parser': 7.19.1
   '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.19.1
   '@babel/preset-env': 7.19.1_@babel+core@7.19.1
   '@babel/preset-typescript': 7.18.6_@babel+core@7.19.1
+  '@babel/traverse': 7.19.1
+  '@types/node': 18.7.18
   acorn: 8.8.0
   typescript: 3.9.10
 
@@ -1269,6 +1277,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@types/node/18.7.18:
+    resolution: {integrity: sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==}
+    dev: true
 
   /acorn/8.8.0:
     resolution: {integrity: sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==}
